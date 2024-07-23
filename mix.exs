@@ -3,7 +3,7 @@ defmodule Phial.MixProject do
 
   @source_url "https://github.com/wess/phial"
   @description "Handful of helpers for plug applications. No frameworks."
-  @version "0.0.2"
+  @version "0.0.3"
 
   def project do
     [
@@ -45,7 +45,6 @@ defmodule Phial.MixProject do
       {:jason, "~> 1.4.3"},
       {:plug_cowboy, "~> 2.7.1"},
       {:ecto_sql, "~> 3.11.3"},
-      {:httpoison, "~> 2.2.1"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
